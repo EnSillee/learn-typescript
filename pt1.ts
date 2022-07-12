@@ -6,10 +6,10 @@ let b = true;
 b = false;
 // b = 1;
 
-let c: number = 3;
+let c : number = 3;
 // c = "three";
 
-let d: string = 'today';
+let d : string = 'today';
 // d = true;
 
 let e = [1, 2, 3];
