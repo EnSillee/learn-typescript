@@ -1,3 +1,7 @@
+
+const numbers: readonly number[] = [1, 2, 3 ,4]
+numbers.push(5)
+
 var A : number[] = [1, 2]
 var B : string[] = ['a', 'b']
 let C : boolean[] = [true]
@@ -14,7 +18,7 @@ let C : boolean[] = [true]
 // }
 
 type Player = {
-  name : string,
+  readonly name : string,
   age? : number
 }
 
@@ -26,6 +30,8 @@ const playerMaker = (name: string, age?: number) : Player => ({name, age})
 
 
 let jy = playerMaker('JungYoon', 29)
+
+// jy.name = 'hello'
 
 console.log(jy)
 
@@ -41,4 +47,10 @@ console.log(jy)
 
 // if(jy.age && jy.age > 20){
 //   console.log(`환영합니다! ${jy.name}님`)
+
 // }
+
+// const names: readonly string[] = ["a","b"]
+// names.push("a")
+// }
+
