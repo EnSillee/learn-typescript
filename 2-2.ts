@@ -1,7 +1,3 @@
-
-const numbers: readonly number[] = [1, 2, 3 ,4]
-numbers.push(5)
-
 var A : number[] = [1, 2]
 var B : string[] = ['a', 'b']
 let C : boolean[] = [true]
