@@ -21,7 +21,7 @@ function welcom(){
 }
 
 const a = welcom()
-a.toUpperCase()
+// a.toUpperCase()
 
 // never : 함수가 절대 return하지 않을 때 발생
 

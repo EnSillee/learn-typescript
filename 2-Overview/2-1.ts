@@ -1,5 +1,5 @@
-let a = 'hello';
-a = 'bye';
+// let a = 'hello';
+// a = 'bye';
 // a = 1;
 
 let b = true;
