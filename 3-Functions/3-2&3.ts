@@ -36,3 +36,5 @@ const bbb = superPrint([true, false, false], 1)
 const ccc = superPrint(["동","해","물","과"], true)
 const ddd = superPrint([1, 2 ,true, false], [])
 // ddd.toUpperCase()
+
+//confirm
