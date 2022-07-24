@@ -13,23 +13,23 @@ let C : boolean[] = [true]
 //   console.log(`환영합니다 ${userJY.name}님`)
 // }
 
-type Player = {
-  readonly name : string,
-  age? : number
-}
-
-// function playerMaker(name: string, age?: number) : Player{
-//   return {name, age}
+// type Player = {
+//   readonly name : string,
+//   age? : number
 // }
 
-const playerMaker = (name: string, age?: number) : Player => ({name, age})
+// // function playerMaker(name: string, age?: number) : Player{
+// //   return {name, age}
+// // }
+
+// const playerMaker = (name: string, age?: number) : Player => ({name, age})
 
 
-let jy = playerMaker('JungYoon', 29)
+// let jy = playerMaker('JungYoon', 29)
 
 // jy.name = 'hello'
 
-console.log(jy)
+// console.log(jy)
 
 // const jy : Player = {
 //   name:"JungYoon",
